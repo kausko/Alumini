@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assests-signup/images/Logo2.png" type="icon">
+    <title>Alumni Link | Signup</title>
+    <link rel="stylesheet" href="assests-signup/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="sign-up">
+            <a class="back" href="/"><span class="back-arrow">Back</span></a>
+            <div class="brand">
+                <img src="assests-signup/images/logo5.png" style="width: 10rem; margin-left: 6.5rem;" alt="">
+                <h2 class="title">Sign up now</h2>
+            </div>
+            <div class="form">
+                <form action="/signup" method="post">
+                    <div class="row">
+                        <input type="text" name="firstname" placeholder="First name" required>
+                        <input type="text" name="lastname" placeholder="Last name" required>
+                    </div>
+                    <input type="email" name="username" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <div class="form-group">
+                        <label for="collegeid"></label>
+                        <input class="form-control" id="#collegeid" name="collegeid" placeholder="College ID" required>
+                    </div>
+                    <div class="checkbox form-group">
+                        <input type="checkbox" class="form-control checkbox-label" name="terms" id="terms">
+                        <label for="terms" class="checkbox-label"></label>
+                        <label for="terms" class="description">Click <a>here</a> to agree with <a href="#terms">Terms & conditions</a></label>
+                    </div>
+                    <button type="submit" name="submit" style="cursor: pointer;">Sign up for free</button>
+                    <hr style="margin-top: -.4rem;">
+                    <button type="submit" name="submit" style="cursor: pointer; background-color: red;">Sign up with google</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

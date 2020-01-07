@@ -1,0 +1,11 @@
+<p>LoggedIn SuccessFully</p>
+<% if(currentUser){ %>
+    <p>
+        <%= currentUser.username %>
+    </p>
+    <img src="/uploads/<%= currentUser.profile %>">
+    <p> Your College Id is :
+        <%= currentUser.collegeid %>
+    </p>
+    <a href="/logout">logout</a>
+    <% } %>
