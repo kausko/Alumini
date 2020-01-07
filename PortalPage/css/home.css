@@ -1,0 +1,53 @@
+body {
+  padding-top: 5rem;
+    background-color: #0e4d92;
+}
+
+/*background: linear-gradient(0deg, rgb(29,62,83), #3a5bcd, #3a88cd);
+background-size: 600% 600%;
+
+-webkit-animation: BlueGrad 24s ease infinite;
+-moz-animation: BlueGrad 24s ease infinite;
+-o-animation: BlueGrad 24s ease infinite;
+animation: BlueGrad 24s ease infinite;
+}
+
+@-webkit-keyframes BlueGrad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes BlueGrad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-o-keyframes BlueGrad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes BlueGrad {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}*/
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.card-text.text-muted {
+  font-size: small;
+}
+
+.card-text.text-muted.list-title {
+  font-size: small;
+  font-weight: bold;
+}
+
+ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
