@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(38,38,38);
+}
+/*background: linear-gradient(0deg, #000000, #444444);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 31s ease infinite;
+-moz-animation: AnimationName 31s ease infinite;
+-o-animation: AnimationName 31s ease infinite;
+animation: AnimationName 31s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home-page-searchbar {
+    
+}
+
+#home-page-navbar {
+    background-color:rgba(0,0,0,0.5);
+}
+
+.carousel-caption{
+    background-color:rgba(0,0,0,0.5);
+}
+
+.display-4{
+    font-size: 5vh;
+}
+
+.scroll{
+    max-height: 36vh;
+    overflow-y:auto;
+    
+}
